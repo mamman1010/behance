@@ -60,6 +60,21 @@ li {
   background-color: #D35266;
 }
 
+.button {
+  background-color: #D35266; /* pink */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.icon {
+  border-radius: 50%;
+}
+
 .behance {
   background-color: #D35266;
   justify-content: center;
@@ -120,11 +135,14 @@ li {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
 }
 
 .price {
   float: right;
+ margin-left: 3px;
 }
 
 /* Responsive layout on mobile */
@@ -184,7 +202,6 @@ padding-bottom: 10px;
   flex-direction: row;
   width: 90%;
   margin-top: 10px;
-  
 }
 
 .container {
