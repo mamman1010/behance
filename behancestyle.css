@@ -45,7 +45,9 @@ li {
 
 .topnav {
   width: 100%;
+
   text-align: center;
+  justify-content: center;
   overflow: hidden;
 }
 
@@ -60,7 +62,7 @@ li {
   background-color: #D35266;
 }
 
-.button {
+.buttonOne {
   background-color: #D35266; /* pink */
   border: none;
   color: white;
@@ -69,6 +71,29 @@ li {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.buttonTwo {
+  background-color: #383838;
+  border: none;
+  color: #888888;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input {
+  text-align: center;
+  padding: 15px 32px;
+}
+
+
+select {
+  text-align: center;
+  padding: 15px 32px;
+  background-color: white;
 }
 
 .icon {
@@ -112,8 +137,10 @@ li {
 .searchboxes {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #D35266;
+  padding-left: 19%;
+  padding-right: 19%;
   width: 100%;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -143,6 +170,12 @@ li {
 .price {
   float: right;
  margin-left: 3px;
+}
+
+.iconnav {
+  float: right;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Responsive layout on mobile */
