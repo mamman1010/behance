@@ -182,6 +182,12 @@ select {
   .column.side, .column.middle {
     width: 100%;
   }
+
+  .searchboxes {
+    display: flex;
+    flex-direction: column;
+  }
+
   .electronics {
     display: flex;
     flex-direction: column;
